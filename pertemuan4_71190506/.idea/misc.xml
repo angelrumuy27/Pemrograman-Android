@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Pemrograman-Android/pertemuan4_71190506/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Pemrograman-Android/pertemuan4_71190506/app/src/main/res/drawable/bg_btn_regis.xml" value="0.1953125" />
+        <entry key="..\:/Pemrograman-Android/pertemuan4_71190506/app/src/main/res/drawable/bg_button.xml" value="0.1953125" />
+        <entry key="..\:/Pemrograman-Android/pertemuan4_71190506/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
