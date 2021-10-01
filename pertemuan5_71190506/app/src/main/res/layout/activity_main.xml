@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+        
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@drawable/bg_gradasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Masuk"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:paddingStart="20dp"
+            android:paddingEnd="5dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/ic_baseline_person_outline_24"
+            android:hint="  Masukan username"
+            android:drawablePadding="20dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="20dp"
+            android:inputType="numberPassword"
+            android:hint="  Masukan Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Login"
+            android:background="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            />
+    </LinearLayout>
+
+</LinearLayout>
