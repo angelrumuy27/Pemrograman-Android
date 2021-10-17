@@ -23,13 +23,13 @@
 
         <TextView
             android:id="@+id/txtNama"
-            android:layout_width="wrap_content"
+            android:layout_width="117dp"
             android:layout_height="match_parent"
             android:paddingVertical="10dp"
             android:paddingLeft="15dp"
             android:text="Mama"
             android:textColor="#DEDEDE"
-            android:textSize="23sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
     <View
