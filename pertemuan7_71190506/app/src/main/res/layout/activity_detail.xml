@@ -17,6 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textAlignment="center"
         android:text="Mama"
         android:textSize="25sp"
@@ -27,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:gravity="center"
         android:text="Ponsel +6282343665566"
         android:paddingTop="10dp"
         android:textSize="18sp"
