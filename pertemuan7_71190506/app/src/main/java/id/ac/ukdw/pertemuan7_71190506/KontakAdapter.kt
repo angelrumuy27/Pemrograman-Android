@@ -19,8 +19,12 @@ class KontakAdapter (var listKontak: ArrayList<Kontak>, var context: Context): R
                 val tertaut = kontak.tertaut
                 val nama = kontak.nama
                 val foto = kontak.foto
-                val i = Intent(this, detailActivity::class.java)
+                val i = Intent(context, detailActivity::class.java)
                 i.putExtra("nama",nama)
+                i.putExtra("noHP",noHP)
+                i.putExtra("tertaut",tertaut)
+                i.putExtra("foto",foto)
+                context.startActivity(i)
 
             }
         }
