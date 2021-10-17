@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="#41729F
+
+">
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAlignment="center"-->
+<!--        android:text="Daftar Kontak"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20sp"-->
+<!--        android:background="#C3E0E5"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imgKontak"
+            android:layout_width="49dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_action_name"
+            />
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="Mama"
+            android:textColor="#DEDEDE"
+            />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="#999999" />
+
+
+</LinearLayout>
