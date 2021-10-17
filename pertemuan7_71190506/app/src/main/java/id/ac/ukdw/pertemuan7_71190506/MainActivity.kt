@@ -11,10 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val listKontak = arrayListOf<Kontak>()
-        listKontak.add(Kontak("Mom", R.mipmap.elina))
-        listKontak.add(Kontak("Dad", R.mipmap.elina))
-        listKontak.add(Kontak("Mom", R.mipmap.elina))
-        listKontak.add(Kontak("Mom", R.mipmap.elina))
+        listKontak.add(Kontak("Mom", R.mipmap.elina,"+62876886657",2))
 
 
         val rcyKontak = findViewById<RecyclerView>(R.id.rcyKontak)

@@ -1,6 +1,7 @@
 package id.ac.ukdw.pertemuan7_71190506
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,9 +12,15 @@ import androidx.recyclerview.widget.RecyclerView
 class KontakAdapter (var listKontak: ArrayList<Kontak>, var context: Context): RecyclerView.Adapter<KontakAdapter.KontakHolder>(){
     class KontakHolder(val view: View): RecyclerView.ViewHolder(view){
         fun bind(kontak: Kontak, context: Context){
-            view.findViewById<ImageView>(R.id.imgKontak).setImageResource(kontak.foto)
-            view.findViewById<TextView>(R.id.txtNama).setText(kontak.nama)
+            val foto = view.findViewById<ImageView>(R.id.imgKontak).setImageResource(kontak.foto)
+            val nama = view.findViewById<TextView>(R.id.txtNama).setText(kontak.nama)
             view.setOnClickListener{
+                val noHP = kontak.noHp
+                val tertaut = kontak.tertaut
+                val nama = kontak.nama
+                val foto = kontak.foto
+                val i = Intent(this, detailActivity::class.java)
+                i.putExtra("nama",nama)
 
             }
         }

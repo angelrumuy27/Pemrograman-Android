@@ -9,12 +9,14 @@
     android:background="#C3E0E5">
 
     <ImageView
+        android:id="@+id/imgShowKontak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_action_name"
         android:paddingBottom="15dp"
         />
     <TextView
+        android:id="@+id/txtShowNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -25,6 +27,7 @@
 
         />
     <TextView
+        android:id="@+id/txtShowNoHp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -109,6 +112,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/txtShowTertaut"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
