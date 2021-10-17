@@ -22,7 +22,7 @@ class detailActivity: AppCompatActivity() {
 
         showNama.text = nama
         showNoHp.text = noHP
-        showTertaut.setText(tertaut)
+        showTertaut.setText("Kontak tertaut("+Integer.toString(tertaut)+")")
         showFoto.setImageResource(foto)
     }
 
