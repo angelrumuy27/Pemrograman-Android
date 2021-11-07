@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pertemuan9_71190506</string>
+    <string name="welcome">Hai, Selamat Datang</string>
+    <string name="logout">Keluar</string>
+    <string name="language">Ubah Bahasa</string>
+    <string name="minSize">-Ukuran Font</string>
+    <string name="maxSize">+Ukuran Font</string>
+</resources>

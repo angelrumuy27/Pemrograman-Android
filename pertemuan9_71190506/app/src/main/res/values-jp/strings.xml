@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pertemuan9_71190506</string>
+    <string name="welcome">こんにちは、ようこそ</string>
+    <string name="logout">ログアウト</string>
+    <string name="language">言語を変更</string>
+    <string name="minSize">-フォントサイズ</string>
+    <string name="maxSize">+フォントサイズ</string>
+</resources>
